@@ -1,0 +1,13 @@
+Data Source:
+[1] Almeida, T.A., G�mez Hidalgo, J.M., Yamakami, A. Contributions to the study of SMS Spam Filtering: New Collection and Results. Proceedings of the 2011 ACM Symposium on Document Engineering (ACM DOCENG'11), Mountain View, CA, USA, 2011. (Under review)
+http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/ 
+
+There are two requirements.txt file. One is for the notebook ("nb_requirements"),
+ the other is for the script ("requirements").
+ This is so the docker container uses only the packages needed for the API.
+
+When running the container you may need to specify the port, as you may not be able to connect to the api site otherwise.
+try: docker run -p 8000:8000 [image_name]
+
+ 
+
