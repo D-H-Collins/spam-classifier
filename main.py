@@ -7,7 +7,7 @@ import numpy as np
 model = keras.saving.load_model('spamclass.keras')
 pattern_unusual = r'[^\w\sa!@#$%^&£*()_+\-=\[\]{};\':"\\|,.<>\/?]' #Pattern which selects characters not inside brackets.
 
-threshold = 0.5 #Adjustable Threshold for classifier
+threshold = 0.85 #Adjustable Threshold for classifier
 
 
 #Function to format the string and run the model. Model handles vectorization including unknown tokens.
